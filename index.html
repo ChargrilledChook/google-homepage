@@ -19,23 +19,44 @@
             float: left;
             padding: 14px;
         }
+        nav 
+        {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        footer 
+        {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .main
+        {
+         text-align: center;
+        }
     </style>
     <body>
         <nav>
-            <p>About</p>
-            <p>Store</p>
-            <p>Gmail</p>
-            <p>Images</p>
-            <p>9 dots placeholder</p>
-            <button>Sign In</button>
+            <ul>
+                <li><a href="#">About</a></a></li>
+                <li><a href="#">Store</a></a></li>
+                <li><a href="#">Gmail</a></a></li>
+                <li style="float: right;"><a href="#">Images</a></a></li>
+                <li style="float: right;"><a href="#">9 Box</a></a></li>
+                <li style="float: right;"><a href="#">Settings</a></a></li> <!-- sort of works but the elements are the wrong way around-->
+                <li style="float: right;"></li><button>Sign In</button></li>
+            </ul>
         </nav>
-        <img src="assets/googleLogo.png" alt="The Google Logo">
-        <form >
-            <input type="text">
-            <!--<input type="submit" value="Submit Form">-->
-        </form>
-        <button>Google Search</button>
-        <button>I'm feeling lucky</button>
+        <div class="main">
+            <img src="assets/googleLogo.png" alt="The Google Logo">
+            <form >
+                <input type="text">
+                <!--<input type="submit" value="Submit Form">-->
+            </form>
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
         <footer>
             <ul>
                 <li><a href="#">Advertising</a></a></li>
@@ -48,4 +69,4 @@
         </footer>
     </body>
 </html>
-
+          
