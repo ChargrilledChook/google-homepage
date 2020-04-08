@@ -1,0 +1,42 @@
+
+.main
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:;
+}
+li 
+{
+    float: left;
+    padding: 14px;
+}
+.botright
+{
+    float: right;
+}
+nav 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.main
+{
+    text-align: center;
+}
