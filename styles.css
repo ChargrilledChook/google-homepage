@@ -1,11 +1,12 @@
 
+
 .main
 {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 ul
 {
@@ -19,6 +20,10 @@ li
 {
     float: left;
     padding: 14px;
+}
+.topright
+{
+    float: right;
 }
 .botright
 {
@@ -35,8 +40,4 @@ footer
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-.main
-{
-    text-align: center;
 }
