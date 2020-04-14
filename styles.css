@@ -73,24 +73,3 @@ input{
     height: 30px;
     border:1px solid #dadce0;
 }
-element {
-
-}
-#search-bar2 {
-
-    position: relative;
-    display: block;
-    margin: auto;
-    height: auto;
-    border-radius: 50px;
-    width: 450px;
-    height: 40px;
-    border-width: 0px;
-    border: 1px solid rgba(184, 178, 178, 0.527);
-    background-image: url(./assets/searchSprites.png);
-    background-repeat: no-repeat;
-    background-size: 27px;
-    background-position: 8px 8px;
-    text-indent: 40px;
-
-}
