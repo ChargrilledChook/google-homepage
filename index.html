@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf8">
         <title>GoogleOdin</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <style>
@@ -17,19 +18,22 @@
                     <li><a href="#">Gmail</a></a></li>
                     <li><a href="#">Images</a></a></li>
                     <li><a href="#"><img id="logo9" src="assets/9boxsmall.png"></a></a></li>
-                    <li></li><button>Sign In</button></li>
+                    <li><button type="button" class="btn btn-primary">Sign In</button></li>
                 </div>
             </ul>
         </nav>
+        
         <div class="main">
-            <img src="assets/googleLogo.png" alt="The Google Logo">
-            <form id="searchbar">
-                <input type="text">
-                <!--<input type="submit" value="Submit Form">-->
-            </form>
-            <div>
-                <button>Google Search</button>
-                <button>I'm feeling lucky</button>
+            <div class="center">
+                <img src="assets/googleLogo.png" alt="The Google Logo">
+                <form>
+                    <input id="searchbar" type="text">
+                    <!--<input type="submit" value="Submit Form">-->
+                </form>
+                <div>
+                    <button>Google Search</button>
+                    <button>I'm feeling lucky</button>
+                </div>
             </div>  
         </div>
         <footer>
