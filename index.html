@@ -2,13 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf8">
-        <title>GoogleOdin</title>
+        <title>Google</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <style>
-        
-    </style>
     <body>
         <nav>
             <ul>
@@ -26,13 +23,17 @@
         <div class="main">
             <div class="center">
                 <img src="assets/googleLogo.png" alt="The Google Logo">
-                <form>
-                    <input id="searchbar" type="text">
-                    <!--<input type="submit" value="Submit Form">-->
-                </form>
+                <div id="search-wrapper">
+                    <form>
+                        <img id ="searchicon" src="assets/search.png">
+                        <input id="searchbar" type="text">
+                        <img id="microphone" src="assets/googlemicrophone.png">
+                    </form>
+                    
+                </div>
                 <div>
-                    <button>Google Search</button>
-                    <button>I'm feeling lucky</button>
+                    <button class="midbtn">Google Search</button>
+                    <button class="midbtn">I'm feeling lucky</button>
                 </div>
             </div>  
         </div>
